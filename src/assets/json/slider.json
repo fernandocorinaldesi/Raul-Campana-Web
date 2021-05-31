@@ -1,0 +1,42 @@
+[
+  {
+      "id": 1,
+      "imagen": "https://i.ibb.co/z4Vg9SN/c2.jpg",
+      "titulo1": "Hola, soy Raul Campana",
+      "titulo2": "baterista con mas de",
+      "titulo3": "30 años de experiencia",
+      "titulo4": "como musico y profesor"
+    },
+    {
+      "id": 2,
+      "imagen": "https://i.ibb.co/QKL888F/c4.jpg",
+      "titulo1": "Conoce mi historia",
+      "titulo2": "y mi experiencia",
+      "button": "ACERCA DE MI",
+      "ref": "#acercade"
+    },
+    {
+      "id": 3,
+      "imagen": "https://i.ibb.co/x8q1qbC/c1.jpg",
+      "titulo1": "Si deseas informacion",
+      "titulo2": "Sobre mis clases particulares",
+      "button": "CLICK AQUI",
+      "ref": "#clases"
+    },
+    {
+      "id": 4,
+      "imagen": "https://i.ibb.co/Y0Y3wS0/raicesslide2.jpg",
+      "titulo1": "Conoce mi música",
+      "button": "CLICK AQUI",
+      "ref": "#music"
+    },
+    {
+      "id": 5,
+      "imagen": "https://i.ibb.co/mSb7cq6/slidecontactos.jpg",
+      "titulo1": "Medios de contacto",
+      "titulo2": "Wsp: 11 2183-2396",
+      "titulo3": "Mail : @gmail.com",
+      "titulo4": "Horarios: x a x hs"
+    }
+       
+ ]
