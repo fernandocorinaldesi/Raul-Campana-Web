@@ -10,13 +10,13 @@
           :music="{
             title: '01- Esto es candombe',
             artist: 'Raices 1978',
-            src: '/music/01Estoescandombe.mp3',
+            src: '/music/01EstoEsCandombe.mp3',
             pic: '/img/raices-front2.jpg',
           }"
           :list="[
             {
               title: '01- Esto es candombe ',
-              src: '/music/01Estoescandombe.mp3',
+              src: '/music/01EstoEsCandombe.mp3',
               pic: '/img/raices-front2.jpg',
               artist: 'Raices 1978',
             },
