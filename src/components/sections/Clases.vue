@@ -7,7 +7,7 @@
         <div class="descripcion">
           <p>Quien dirige el ritmo, dirige todo. Vení a aprender Batería.</p>
           <ul>
-            <li>Desde lo basico hasta lo mas avanzado.</li>
+            <li>Desde lo básico hasta lo mas avanzado.</li>
             <li>Notación y teoría musical.</li>
             <li>Audioperceptiva.</li>
             <li>Ejercicios y técnica.</li>
@@ -51,7 +51,7 @@
                 alt="Responsive image"
               ></b-img>
               <h5>Avanzado</h5>
-              <p>Tecnicas y teoria avanzada.</p>
+              <p>Têcnicas y teoría avanzada.</p>
               <b-button v-b-modal.modal-avanzado class="mb-2" id="buttoninverse"
                 >Mas información</b-button
               >

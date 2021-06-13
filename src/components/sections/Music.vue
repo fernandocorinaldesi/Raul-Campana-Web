@@ -1,6 +1,6 @@
 <template>
   <b-container>
-    <div class="titulos text-center"><h2>CONOCE MI MUSICA</h2></div>
+    <div class="titulos text-center"><h2>CONOCE MI MÚSICA</h2></div>
     <b-row align-h="center" no-gutters class="mt-5 mb-5">
       <b-col cols="12" md="6" lg="5">
         <Aplayer

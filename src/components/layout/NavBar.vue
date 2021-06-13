@@ -10,7 +10,7 @@
     <b-navbar-brand href="#">
       <div class="logo d-flex align-items-center">
         <h1 class="mt-1 mr-2 titulo-principal" style="font-size:1.75rem;">
-          Raul Campana
+          Raúl Campana
           <img
             src="https://i.ibb.co/yRj603y/equalizer.gif"
             width="10%"
