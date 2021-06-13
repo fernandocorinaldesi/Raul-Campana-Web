@@ -9,14 +9,14 @@
   >
     <b-navbar-brand href="#">
       <div class="logo d-flex align-items-center">
-        <h3 class="mt-1 mr-2 titulo-principal">
+        <h1 class="mt-1 mr-2 titulo-principal" style="font-size:1.75rem;">
           Raul Campana
           <img
             src="https://i.ibb.co/yRj603y/equalizer.gif"
             width="10%"
             height="10%"
           />
-        </h3>
+        </h1>
       </div>
     </b-navbar-brand>
     <!-- <audio src="@/assets/musica.mp3" autoplay loop  hidden></audio> -->
