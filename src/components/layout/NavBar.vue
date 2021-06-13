@@ -34,7 +34,7 @@
       <!-- Right aligned nav items -->
       <b-navbar-nav class="ml-auto">
         <div class="social-links ml-auto">
-          <a href="#" class="facebook">
+          <a href="https://www.facebook.com/raulcampanacuadro" class="facebook">
             <i class="fab fa-facebook-f"></i>
           </a>
           <a href="#" class="instagram">

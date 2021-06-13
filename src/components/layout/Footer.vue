@@ -14,33 +14,36 @@
                 <a href="#">Inicio</a>
               </li>
               <li>
-                <a href="#acerca">Acerca de</a>
+                <a href="#acercade">Acerca de mi</a>
               </li>
               <li>
-                <a href="#productos">Galeria</a>
+                <a href="#music">Mi música</a>
               </li>
               <li>
-                <a href="#">Mis Clases</a>
+                <a href="#videos">Galeria</a>
               </li>
               <li>
-                <a href="#contacto">Contacto</a>
+                <a href="#clases">Mis Clases</a>
+              </li>
+              <li>
+                <a v-b-modal.modal-2>Contacto</a>
               </li>
             </ul>
           </div>
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>Contactanos</h4>
+            <h4>Contactame</h4>
             <p>
               <!-- Primera junta 648 <br /> -->
               CABA
               <br />Argentina
               <br />
-              <strong>Telefono:</strong>11 2829-6699
+              <strong>Telefono:</strong>11 2183-2396
               <br />
-              <strong>Email:</strong>ferchucorinaldesi@gmail.com
+              <strong>Email:</strong>@gmail.com
               <br />
             </p>
             <div class="social-links " style="padding-right:60%">
-              <a href="#" class="facebook">
+              <a href="https://www.facebook.com/raulcampanacuadro" class="facebook">
                 <i class="fab fa-facebook-f"></i>
               </a>
               <a href="#" class="instagram">
