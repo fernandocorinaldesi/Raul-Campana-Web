@@ -7,7 +7,7 @@
     sticky
     id="custom"
   >
-    <b-navbar-brand href="#">
+    <b-navbar-brand href="#" style="width:50%;">
       <div class="logo d-flex align-items-center">
         <h1 class="mt-1 mr-2 titulo-principal" style="font-size:1.75rem;">
           Raúl Campana
@@ -23,7 +23,7 @@
     <!-- <img src="../../public/img/logo.png" width="5%" height="5%" /> -->
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
     <b-collapse id="nav-collapse" is-nav>
-      <b-navbar-nav class="mr-auto">
+      <b-navbar-nav class="mr-auto" >
         <b-nav-item active href="#">Inicio</b-nav-item>
         <b-nav-item href="#acercade">Acerca de mi</b-nav-item>
         <b-nav-item href="#music">Mi musica</b-nav-item>

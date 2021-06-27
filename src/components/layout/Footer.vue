@@ -39,7 +39,7 @@
               <br />
               <strong>Telefono:</strong>11 2183-2396
               <br />
-              <strong>Email:</strong>@gmail.com
+              <strong>Email:</strong>raulwaltercuadro63@gmail.com
               <br />
             </p>
             <div class="social-links " style="padding-right:60%">

@@ -109,7 +109,7 @@
                 width="20%"
                 height="20%"
               /><span style="font-size: 100%"
-                ><strong><a href="">Enviandome un mail a</a></strong></span
+                ><strong><a href="">Mail a raulwaltercuadro63@gmail.com</a></strong></span
               >
             </div>
           </div>
