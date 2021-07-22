@@ -34,7 +34,7 @@
             <h4>Contactame</h4>
             <p>
               <!-- Primera junta 648 <br /> -->
-              CABA
+              San Miguel Bs. As.
               <br />Argentina
               <br />
               <strong>Telefono:</strong>11 2183-2396
