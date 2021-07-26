@@ -21,7 +21,7 @@
       </b-col>
       <b-col cols="12" md="6" lg="8">
         <b-row align-h="center">
-          <b-col  cols="8" md="6" lg="4" mb-2>
+          <b-col cols="8" md="6" lg="4" mb-2>
             <div class="custom-card text-center">
               <b-img
                 class="pt-2 pl-1 pr-1"
@@ -39,6 +39,12 @@
                 id="buttoninverse"
                 >Mas información</b-button
               >
+              <b-button
+                v-b-modal.modal-basico-intermedio-videos
+                class=" ml-2 mb-2"
+                id="buttoninverse"
+                >Videos</b-button
+              >
             </div>
           </b-col>
           <b-col cols="8" md="6" lg="4" mb-2>
@@ -54,6 +60,12 @@
               <p>Têcnicas y teoría avanzada.</p>
               <b-button v-b-modal.modal-avanzado class="mb-2" id="buttoninverse"
                 >Mas información</b-button
+              >
+              <b-button
+                
+                class=" ml-2 mb-2"
+                id="buttoninverse"
+                >Videos</b-button
               >
             </div>
           </b-col>
@@ -78,7 +90,11 @@
                 width="24%"
                 height="24%"
               /><span style="font-size: 100%"
-                ><strong><a href="https://www.facebook.com/raulcampanacuadro">Hablame por Facebook</a></strong></span
+                ><strong
+                  ><a href="https://www.facebook.com/raulcampanacuadro"
+                    >Hablame por Facebook</a
+                  ></strong
+                ></span
               >
             </div>
           </div>
@@ -109,7 +125,9 @@
                 width="20%"
                 height="20%"
               /><span style="font-size: 100%"
-                ><strong><a href="">Mail a raulwaltercuadro63@gmail.com</a></strong></span
+                ><strong
+                  ><a href="">Mail a raulwaltercuadro63@gmail.com</a></strong
+                ></span
               >
             </div>
           </div>
@@ -127,7 +145,7 @@
       <b-row>
         <b-col cols="12">
           <h5><u>ESTAS CLASES INCLUYEN LO SIGUIENTE:</u></h5>
-          <br>
+          <br />
           <ul>
             <li>Clases individuales.</li>
             <li>
@@ -156,33 +174,50 @@
         </b-col>
       </b-row>
     </b-modal>
-    <b-modal id="modal-avanzado" ok-title="Volver" ok-only scrollable hide-header="true">
+    <b-modal
+      id="modal-basico-intermedio-videos"
+      ok-title="Volver"
+      hide-header="true"
+      ok-only
+      scrollable
+    >
       <b-row>
-        <b-col cols="12"> 
+        <b-col cols="12">
+          <iframe
+            width="100%"
+            height="230"
+            src="https://drive.google.com/file/d/1ZhTwRV39g9e13R3pgFsl_hQdVo22ckvQ/preview"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <label class="form-control label-warning text-xs-center"
+            >Clase 1 para principiantes</label
+          >
+        </b-col>
+      </b-row>
+    </b-modal>
+    <b-modal
+      id="modal-avanzado"
+      ok-title="Volver"
+      ok-only
+      scrollable
+      hide-header="true"
+    >
+      <b-row>
+        <b-col cols="12">
           <h5><u>ESTAS CLASES INCLUYEN LO SIGUIENTE:</u></h5>
-          <br>
+          <br />
           <ul>
+            <li>Clases individuales y grupales.</li>
             <li>
-              Clases individuales y  grupales.
+              Ritmos y combinaciones: fraseos lineales, Jazz, Swing, Funk,
+              Candombe, Latin, Rock, Pop, Folclore, Tango fusión.
             </li>
-            <li>
-              Ritmos y combinaciones: fraseos lineales, Jazz, Swing, Funk, Candombe, Latin, Rock, Pop, Folclore, Tango fusión.
-            </li>
-            <li>
-              Ensamble con percusiones.
-            </li>
-            <li>
-              Ensamble instrumental.
-            </li>
-            <li>
-              Clínicas de batería.
-            </li>
-            <li>
-              Sala de ensayo para pequeñas bandas.
-            </li>
-            <li>
-              Grupos de análisis de audios y videos especializados.
-            </li>
+            <li>Ensamble con percusiones.</li>
+            <li>Ensamble instrumental.</li>
+            <li>Clínicas de batería.</li>
+            <li>Sala de ensayo para pequeñas bandas.</li>
+            <li>Grupos de análisis de audios y videos especializados.</li>
           </ul>
         </b-col>
       </b-row>
@@ -210,12 +245,11 @@ export default {
   color: rgb(122, 122, 122);
 }
 @media only screen and (max-width: 576px) {
-.clases-info{
-  margin-bottom: 10%  !important;
-}
-.custom-card{
-  margin-bottom: 10%  !important;
-}
-
+  .clases-info {
+    margin-bottom: 10% !important;
+  }
+  .custom-card {
+    margin-bottom: 10% !important;
+  }
 }
 </style>

@@ -62,7 +62,7 @@
       </div>
       <div class="credits">
         <strong>Made by</strong>
-        <a href="https://" style="color:white"> Fernando Corinaldesi</a>
+        <a href="#" style="color:white"> Fernando Corinaldesi</a>
       </div>
     </div>
   </footer>
