@@ -1,8 +1,21 @@
 <template>
-  <div class="container ">
+  <div class="container">
     <div class="titulos text-center"><h2>MI GALERIA DE VIDEOS</h2></div>
-    <div class="col-md-10 offset-md-1 mt-4 mb-5 ">
+    <div class="col-md-10 offset-md-1 mt-4 mb-5">
       <div class="row pb-row">
+        <div class="col-md-3 pb-video">
+          <iframe
+            class="pb-video-frame"
+            width="100%"
+            height="230"
+            src="https://www.youtube.com/embed/FJMWDGfU47M"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <label class="form-control label-warning text-xs-center"
+            >Raul con Claudio Gabis</label
+          >
+        </div>
         <div class="col-md-3 pb-video">
           <iframe
             class="pb-video-frame"
@@ -42,6 +55,8 @@
             >Raul Campana video 3</label
           >
         </div>
+      </div>
+      <div class="row pb-row">
         <div class="col-md-3 pb-video">
           <iframe
             class="pb-video-frame"
@@ -55,8 +70,6 @@
             >Raul Campana video 4</label
           >
         </div>
-      </div>
-      <div class="row pb-row">
         <div class="col-md-3 pb-video">
           <iframe
             class="pb-video-frame"
@@ -96,6 +109,8 @@
             >Raul Campana video 7</label
           >
         </div>
+      </div>
+      <div class="row pb-row">
         <div class="col-md-3 pb-video">
           <iframe
             class="pb-video-frame"
@@ -121,7 +136,6 @@ export default {
 </script>
 
 <style>
-
 .pb-video {
   border: 1px solid #e6e6e6;
   padding: 5px;
