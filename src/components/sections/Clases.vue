@@ -41,7 +41,7 @@
               >
               <b-button
                 v-b-modal.modal-basico-intermedio-videos
-                class=" ml-2 mb-2"
+                class="ml-2 mb-2"
                 id="buttoninverse"
                 >Videos</b-button
               >
@@ -61,12 +61,7 @@
               <b-button v-b-modal.modal-avanzado class="mb-2" id="buttoninverse"
                 >Mas información</b-button
               >
-              <b-button
-                
-                class=" ml-2 mb-2"
-                id="buttoninverse"
-                >Videos</b-button
-              >
+              <b-button class="ml-2 mb-2" v-b-modal.modal-avanzado-videos id="buttoninverse">Videos</b-button>
             </div>
           </b-col>
         </b-row>
@@ -195,6 +190,20 @@
           >
         </b-col>
       </b-row>
+      <b-row>
+        <b-col cols="12">
+          <iframe
+            width="100%"
+            height="230"
+            src="https://drive.google.com/file/d/1gi9sBPBIZjAejwccnmsV15VGEorrbRqQ/preview"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <label class="form-control label-warning text-xs-center"
+            >Clase 2 para principiantes</label
+          >
+        </b-col>
+      </b-row>
     </b-modal>
     <b-modal
       id="modal-avanzado"
@@ -221,6 +230,28 @@
           </ul>
         </b-col>
       </b-row>
+    </b-modal>
+    <b-modal
+      id="modal-avanzado-videos"
+      ok-title="Volver"
+      hide-header="true"
+      ok-only
+      scrollable
+    >
+      <b-row>
+        <b-col cols="12">
+          <iframe
+            width="100%"
+            height="230"
+            src="https://drive.google.com/file/d/1Kt-UbKJHRVanoqv_ZvpNFEyVYjiWcJW5/preview"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <label class="form-control label-warning text-xs-center"
+            >Clase 1 para avanzados</label
+          >
+        </b-col>
+      </b-row>      
     </b-modal>
   </b-container>
 </template>
